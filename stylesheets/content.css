@@ -18,6 +18,11 @@ article h3 { margin-top: 36px; font-size: 28px; line-height: 34px; color: rgba(0
 article h3 + article p,
 article h3 + article blockquote { margin-top: 6px;
 }
+article h4 { margin-top: 30px; font-size: 24px; line-height: 32px; color: rgba(0, 0, 0, .8);
+}
+article h4 + article p,
+article h4 + article blockquote { margin-top: 5px;
+}
 article p, article blockquote, article li { margin-top: 29px; font-size: 20px; line-height: 34px;
 }
 article blockquote { font-style: italic;
@@ -48,5 +53,5 @@ article ul{
   list-style-type: disc;
 }
 article ol{
-  list-style-type:georgian;
+  list-style-type: inherit;
 }
